@@ -57,7 +57,7 @@ export function ChatInterface() {
     
     try {
       // Call optimization API
-      const response = await fetch('back-endprompt-production.up.railway.app', {
+      const response = await fetch('https://back-endprompt-production.up.railway.app/api/optimize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
